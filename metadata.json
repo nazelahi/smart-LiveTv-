@@ -1,0 +1,6 @@
+{
+  "name": "Vanguard IPTV Studio",
+  "description": "Production Smart IPTV platform with centralized remote playlist administration, XMLTV EPG, device pairing, and multi-platform TV playback.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

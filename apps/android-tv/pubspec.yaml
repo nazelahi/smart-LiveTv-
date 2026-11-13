@@ -1,0 +1,19 @@
+name: vanguard_android_tv
+description: Vanguard Smart IPTV Android TV & Google TV client with Media3 ExoPlayer and Drift local persistence.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  web_socket_channel: ^3.0.1
+  drift: ^2.20.0
+  sqlite3_flutter_libs: ^0.5.24
+  path_provider: ^2.1.4
+  media_kit: ^1.1.11
+  # Native AndroidX Media3 ExoPlayer bridge via platform MethodChannel/PlatformView
+  # implemented in android/app/src/main/kotlin/.../Media3PlayerView.kt
